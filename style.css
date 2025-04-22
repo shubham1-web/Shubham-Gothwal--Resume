@@ -1,0 +1,108 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdfdfd;
+    color: #222;
+    line-height: 1.6;
+    padding: 0;
+  }
+  
+  /* Navbar */
+  nav {
+    background-color: #2d3436;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+  }
+  
+  nav h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Headings */
+  h1 {
+    color: #2d3436;
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    color: #0984e3;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #dfe6e9;
+    padding-bottom: 4px;
+  }
+  
+  /* Paragraphs */
+  p {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  /* Lists */
+  ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+    font-size: 15px;
+  }
+  
+  /* Links */
+  a {
+    color: #0984e3;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Section Card */
+  .section {
+    background-color: #f1f2f6;
+    padding: 15px 20px;
+    margin-bottom: 25px;
+    border-left: 5px solid #74b9ff;
+    border-radius: 5px;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 600px) {
+    .container {
+      padding: 15px 20px;
+    }
+  
+    nav h1 {
+      font-size: 20px;
+    }
+  
+    h1 {
+      font-size: 26px;
+    }
+  
+    h2 {
+      font-size: 18px;
+    }
+  }
+  
